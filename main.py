@@ -1,7 +1,7 @@
 import streamlit as st
 import settings
 
-st.title("📝 연습용 챗봇 만들")
+st.title("📝 연습용 챗봇을 만들어보자")
 
 config = settings.load_config()
 if "api_key" in config:
